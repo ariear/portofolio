@@ -10,7 +10,7 @@ const Nav = () => {
     }, [])
     
     return (
-        <nav className="flex justify-between lg:justify-around items-center py-5 lg:px-0 px-5 font-pupylinux sticky top-0 bg-white transition-all">
+        <nav className="flex justify-between lg:justify-around items-center py-5 lg:px-0 px-5 font-pupylinux sticky top-0 bg-white transition-all z-50">
             <p className="font-semibold text-3xl text-[#3B71FE]">ArieAR.</p>
             <div className="lg:flex hidden items-center font-medium text-[#0e0e2c9a]">
                 <p className="mr-8 relative group"><NavLink to="/" className={(e) => e.isActive ? 'text-black transition-all border-b-2 border-[#3B71FE]' : 'transition-all'}>Home</NavLink><span className="absolute w-0 left-0 bottom-0 group-hover:border border-[#3B71FE] group-hover:w-full transition-all"></span></p>

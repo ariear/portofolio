@@ -1,0 +1,59 @@
+.animasi-hero-gede {
+    animation: anim-hero-gede .7s both;
+}
+.animasi-nama {
+    animation: anim-nama .4s both .4s;
+}
+.animasi-btn-bicara{
+    animation: anim-btn-bicara .4s both 1.1s;
+}
+.animasi-check-service{
+    animation: anim-check-service .4s both 1.3s;
+}
+.animasi-coding-hobi{
+    animation: anim-coding-hobi .4s both .7s;
+}
+.animasi-keterangan-main{
+    animation: anim-keterangan-main .4s both .9s;
+}
+
+@keyframes anim-hero-gede {
+    0%{
+        opacity: .5;
+        transform: translateX(60px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes anim-nama {
+    0%{
+        opacity: 0;
+        transform: translateX(-30px)
+    }
+}
+
+@keyframes anim-btn-bicara {
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+}
+@keyframes anim-check-service {
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+}
+@keyframes anim-coding-hobi {
+    0%{
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+}
+@keyframes anim-keterangan-main {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+}
