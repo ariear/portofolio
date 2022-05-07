@@ -57,3 +57,18 @@
         transform: translateX(-50px);
     }
 }
+
+.menu-nav-enter{
+    height: 0;
+}
+.menu-nav-active{
+    height: 300px;
+    transition: all .3s ease;
+}
+.menu-nav-exit{
+    opacity: 1;
+}
+.menu-nav-exit-active{
+    opacity: 0;
+    transition: all .3s ease;
+}

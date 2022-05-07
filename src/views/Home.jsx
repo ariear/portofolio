@@ -28,7 +28,7 @@ const Home = () => {
 
     return (
         <>
-        <div className="font-pupylinux flex flex-wrap-reverse items-center justify-center lg:justify-around xl:justify-center py-16 mb-5" ref={homeRef}>
+        <div className="font-pupylinux flex flex-wrap-reverse items-center justify-center lg:justify-around xl:justify-center py-7 md:py-16 mb-5" ref={homeRef}>
             <div className="xl:mr-10 lg:w-[400px] xl:w-max lg:text-left md:text-center md:px-0 px-6">
                 <p className="text-[#3B71FE] font-bold text-xl mb-4 kenal-nama">Hello 👋 , My Name Is Arie Akbarull Ridho</p>
                 <p className="font-bold text-2xl lg:text-4xl xl:text-5xl mb-4 coding-hobi">Coding Is My Hobby</p>
