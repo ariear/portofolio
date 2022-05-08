@@ -2,6 +2,7 @@ import Skill from "../components/home/Skill";
 import '../App.css';
 import { useEffect, useRef } from "react";
 import Services from "../components/home/Services";
+import ShowProject from "../components/home/ShowProject";
 
 const Home = () => {
     const homeRef = useRef(null)
@@ -46,6 +47,7 @@ const Home = () => {
         </div>
         <Skill />
         <Services />
+        <ShowProject />
         </>
     )
 }
