@@ -1,6 +1,7 @@
 import Skill from "../components/home/Skill";
 import '../App.css';
 import { useEffect, useRef } from "react";
+import Services from "../components/home/Services";
 
 const Home = () => {
     const homeRef = useRef(null)
@@ -34,8 +35,8 @@ const Home = () => {
                 <p className="font-bold text-2xl lg:text-4xl xl:text-5xl mb-4 coding-hobi">Coding Is My Hobby</p>
                 <p className="lg:text-lg xl:text-xl text-[#0e0e2c9f] mb-6 md:mb-9 keterangan-main">I'm still twelfth grade in balung technology high school</p>
                 <div className="flex md:items-center lg:justify-start md:justify-center md:flex-row flex-col justify-start">
-                    <button className="bg-[#3B71FE] flex items-center text-white py-4 px-6 rounded-md font-medium text-sm mr-4 lg:mr-5 xl:mr-9 w-max md:mb-0 mb-4 btn-bicara">Let's Talk <img src="/asset/icon/message-white.png" className="ml-3" alt="" /></button>
-                    <p className="font-medium text-lg md:text-xl text-[#0E0E2C] flex items-center check-service">Check my Services <img src="/asset/icon/arrow-right-blue.png" className="ml-2" alt="" /></p>
+                    <button className="bg-[#3B71FE] flex items-center text-white py-4 px-6 rounded-md font-medium text-sm mr-4 lg:mr-5 xl:mr-9 w-max md:mb-0 mb-4 btn-bicara hover:scale-95 transition-all">Let's Talk <img src="/asset/icon/message-white.png" className="ml-3" alt="" /></button>
+                    <p className="font-medium text-lg md:text-xl text-[#0E0E2C] flex items-center check-service cursor-pointer group">Check my Services <img src="/asset/icon/arrow-right-blue.png" className="ml-2 group-hover:translate-x-3 transition-all delay-100" alt="" /></p>
                 </div>
             </div>
             <div>
@@ -44,6 +45,7 @@ const Home = () => {
             </div>
         </div>
         <Skill />
+        <Services />
         </>
     )
 }
