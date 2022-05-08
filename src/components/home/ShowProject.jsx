@@ -9,8 +9,8 @@ const ShowProject = () => {
                     <p className="text-[#3B71FE] font-bold text-lg">Kasir Comp</p>
                 </div>
                 <div>
-                    <img src="/asset/kasir-comp.png" className="mb-3 rounded-lg w-[90vw] md:w-[350px]" alt="" />
-                    <p className="text-[#3B71FE] font-bold text-lg">Kasir Comp</p>
+                    <img src="/asset/perpus.png" className="mb-3 rounded-lg w-[90vw] md:w-[350px]" alt="" />
+                    <p className="text-[#3B71FE] font-bold text-lg">Perpus STM</p>
                 </div>
                 <div className="row-span-2">
                     <img src="/asset/quran-app.png" className="mb-3 rounded-lg w-[90vw] md:w-[350px]" alt="" />

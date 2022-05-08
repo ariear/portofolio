@@ -32,7 +32,7 @@ const Nav = () => {
             </button>
             </div>
         </nav>
-        <div className={open ? 'h-[210px] border-b lg:hidden font-pupylinux font-medium px-4 pt-5 sticky top-[84px] bg-white z-40 transition-all overflow-hidden' : 'h-0 lg:hidden px-4 sticky top-[84px] z-40 transition-all overflow-hidden'}>
+        <div className={open ? 'h-[210px] border-b lg:hidden font-pupylinux font-medium px-4 pt-5 sticky top-[67px] bg-white z-40 transition-all overflow-hidden' : 'h-0 lg:hidden px-4 sticky top-[84px] z-40 transition-all overflow-hidden'}>
             <p className="mb-3">Home</p>
             <p className="mb-3">Who am i?</p>
             <p className="mb-3">My Services</p>

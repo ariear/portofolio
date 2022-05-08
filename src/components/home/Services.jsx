@@ -13,7 +13,7 @@ const Services = () => {
                         <div key={index} className="flex flex-col justify-between">
                             <p className="font-bold text-[#3B71FE] text-xl mb-3">{e.title}</p>
                             <p className="text-[#0e0e2c98] mb-3">{e.description}</p>
-                            <button className="border-2 rounded border-[#3B71FE] text-[#3B71FE] flex items-center py-2 px-4 font-semibold text-sm w-max">Learn More <img src="/asset/icon/feather_chevron-right.png" className="ml-1" alt="" /></button>
+                            <button className="border-2 rounded border-[#3B71FE] text-[#3B71FE] flex items-center py-2 px-4 font-semibold text-sm w-max group hover:scale-95 transition-all">Learn More <img src="/asset/icon/feather_chevron-right.png" className="ml-1 group-hover:-translate-x-1 transition-all duration-500" alt="" /></button>
                         </div>
                     )
                 }

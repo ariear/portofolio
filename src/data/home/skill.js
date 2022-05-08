@@ -12,6 +12,10 @@ export const skill = [
         width: '80px'
     },
     {
+        logo: '/asset/logo/ts.png',
+        width: '80px'
+    },
+    {
         logo: '/asset/logo/bootstrap-5-logo.png',
         width: '80px'
     },
