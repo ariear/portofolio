@@ -29,15 +29,15 @@ const Home = () => {
     
 
     return (
-        <div className="overflow-hidden">
+        <div className="overflow-hidden dark:bg-[#262A31] transition-all duration-300">
         <div className="font-pupylinux flex flex-wrap-reverse items-center justify-center lg:justify-around xl:justify-center py-7 md:py-16 mb-5" ref={homeRef}>
             <div className="xl:mr-10 lg:w-[400px] xl:w-max lg:text-left md:text-center md:px-0 px-6">
-                <p className="text-[#3B71FE] font-bold text-xl mb-4 kenal-nama">Hello 👋 , My Name Is Arie Akbarull Ridho</p>
-                <p className="font-bold text-2xl lg:text-4xl xl:text-5xl mb-4 coding-hobi">Coding Is My Hobby</p>
-                <p className="lg:text-lg xl:text-xl text-[#0e0e2c9f] mb-6 md:mb-9 keterangan-main">I'm still twelfth grade in balung technology high school</p>
+                <p className="text-[#3B71FE] font-bold text-xl mb-4 kenal-nama dark:text-white transition-all duration-300">Hello 👋 , My Name Is Arie Akbarull Ridho</p>
+                <p className="font-bold text-2xl lg:text-4xl xl:text-5xl mb-4 coding-hobi dark:text-white transition-all duration-300">Coding Is My Hobby</p>
+                <p className="lg:text-lg xl:text-xl text-[#0e0e2c9f] mb-6 md:mb-9 keterangan-main dark:text-white transition-all duration-300">I'm still twelfth grade in balung technology high school</p>
                 <div className="flex md:items-center lg:justify-start md:justify-center md:flex-row flex-col justify-start">
                     <button className="bg-[#3B71FE] flex items-center text-white py-4 px-6 rounded-md font-medium text-sm mr-4 lg:mr-5 xl:mr-9 w-max md:mb-0 mb-4 btn-bicara hover:scale-95 transition-all">Let's Talk <img src="/asset/icon/message-white.png" className="ml-3" alt="" /></button>
-                    <p className="font-medium text-lg md:text-xl text-[#0E0E2C] flex items-center check-service cursor-pointer group">Check my Services <img src="/asset/icon/arrow-right-blue.png" className="ml-2 group-hover:translate-x-3 transition-all delay-100" alt="" /></p>
+                    <p className="font-medium text-lg md:text-xl text-[#0E0E2C] flex items-center check-service cursor-pointer group dark:text-white transition-all duration-300">Check my Services <img src="/asset/icon/arrow-right-blue.png" className="ml-2 group-hover:translate-x-3 transition-all delay-100" alt="" /></p>
                 </div>
             </div>
             <div>

@@ -11,7 +11,7 @@ const Skill = () => {
     
     return (
         <div className="container mx-auto px-6 py-8">
-            <p className="font-bold text-2xl text-[#0E0E2C] mb-4">My Skill</p>
+            <p className="font-bold text-2xl text-[#0E0E2C] dark:text-white mb-4">My Skill</p>
             <div className="flex flex-wrap items-center justify-center">
                 {
                     skill.map((e, index) =>
