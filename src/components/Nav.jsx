@@ -40,7 +40,7 @@ const Nav = () => {
     
     return (
         <>
-        <nav className="flex justify-between lg:justify-around items-center py-4 lg:px-0 px-5 font-pupylinux sticky top-0 bg-white z-50 dark:bg-[#262A31] transition-all duration-300">
+        <nav className="w-screen flex justify-between lg:justify-around items-center py-4 lg:px-0 px-5 font-pupylinux fixed top-0 bg-white z-50 dark:bg-[#262A31] transition-all duration-300">
             <p className="font-semibold text-2xl md:text-3xl text-[#3B71FE] dark:text-white">ArieAR.</p>
             <div className="lg:flex hidden items-center font-medium text-[#0e0e2c9a] dark:text-[#ffffff98]">
                 <p className="mr-8 relative group"><NavLink to="/" className={(e) => e.isActive ? 'text-black dark:text-white transition-all border-b-2 border-[#3B71FE]' : 'transition-all'}>Home</NavLink><span className="absolute w-0 left-0 bottom-0 group-hover:border border-[#3B71FE] group-hover:w-full transition-all"></span></p>

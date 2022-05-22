@@ -30,7 +30,7 @@ const Home = () => {
 
     return (
         <div className="overflow-hidden dark:bg-[#262A31] transition-all duration-300">
-        <div className="font-pupylinux flex flex-wrap-reverse items-center justify-center lg:justify-around xl:justify-center py-7 md:py-16 mb-5" ref={homeRef}>
+        <div className="font-pupylinux flex flex-wrap-reverse items-center justify-center lg:justify-around xl:justify-center pt-24 md:pt-32 lg:pt-0 py-7 md:py-0 h-max lg:h-screen mb-5" ref={homeRef}>
             <div className="xl:mr-10 lg:w-[400px] xl:w-max lg:text-left md:text-center md:px-0 px-6">
                 <p className="text-[#3B71FE] font-bold text-xl mb-4 kenal-nama dark:text-white transition-all duration-300">Hello 👋 , My Name Is Arie Akbarull Ridho</p>
                 <p className="font-bold text-2xl lg:text-4xl xl:text-5xl mb-4 coding-hobi dark:text-white transition-all duration-300">Coding Is My Hobby</p>
@@ -42,7 +42,7 @@ const Home = () => {
             </div>
             <div>
                 <img src="/asset/hero-m.png" className="lg:hidden block w-[90vw] md:w-[500px] lg:mb-0 mb-6" alt="" />
-                <img src="/asset/hero.png" className="lg:w-[400px] xl:w-[650px] 2xl:w-max lg:block hidden hero-gede" alt="" />
+                <img src="/asset/hero.png" className="lg:w-[400px] xl:w-[570px] 2xl:w-max lg:block hidden hero-gede" alt="" />
             </div>
         </div>
         <Skill />
