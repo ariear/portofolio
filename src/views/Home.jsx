@@ -33,7 +33,7 @@ const Home = () => {
         <div className="font-pupylinux flex flex-wrap-reverse items-center justify-center lg:justify-around xl:justify-center pt-24 md:pt-32 lg:pt-0 py-7 md:py-0 h-max lg:h-screen mb-5" ref={homeRef}>
             <div className="xl:mr-10 lg:w-[400px] xl:w-max lg:text-left md:text-center md:px-0 px-6">
                 <p className="text-[#3B71FE] font-bold text-xl mb-4 kenal-nama dark:text-white transition-all duration-300">Hello 👋 , My Name Is Arie Akbarull Ridho</p>
-                <p className="font-bold text-2xl lg:text-4xl xl:text-5xl mb-4 coding-hobi dark:text-white transition-all duration-300">Coding Is My Hobby</p>
+                <p className="font-bold text-2xl lg:text-4xl xl:text-4xl 2xl:text-5xl mb-4 coding-hobi dark:text-white transition-all duration-300">Coding Is My Hobby</p>
                 <p className="lg:text-lg xl:text-xl text-[#0e0e2c9f] mb-6 md:mb-9 keterangan-main dark:text-white transition-all duration-300">I'm still twelfth grade in balung technology high school</p>
                 <div className="flex md:items-center lg:justify-start md:justify-center md:flex-row flex-col justify-start">
                     <button className="bg-[#3B71FE] flex items-center text-white py-4 px-6 rounded-md font-medium text-sm mr-4 lg:mr-5 xl:mr-9 w-max md:mb-0 mb-4 btn-bicara hover:scale-95 transition-all">Let's Talk <img src="/asset/icon/message-white.png" className="ml-3" alt="" /></button>
