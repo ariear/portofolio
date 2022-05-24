@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 const Skill = () => {
     useEffect(() => {
-        window.addEventListener('load', function() { AOS.init({once: true}); });
+        AOS.init({once: true});
     }, [])
     
     return (
