@@ -27,8 +27,8 @@ const Certificate = () => {
             <p className="dark:text-white text-center text-3xl font-medium mb-10">My Certificate</p>
             <div className="flex items-center justify-center flex-wrap">
             {
-                certificate.map(e =>                     
-                        <a href={e.img}>
+                certificate.map((e, index) =>                     
+                        <a href={e.img} data-aos="fade-right" data-aos-duration="500" data-aos-delay={index * 200} key={index}>
                             <img src={e.img} className="w-[90vw] md:w-[300px] border box-content shadow rounded-lg md:mx-2 mb-5 transition-all duration-300 hover:shadow-lg hover:scale-105" alt="" />
                         </a>
                         )
