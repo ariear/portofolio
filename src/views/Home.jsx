@@ -3,6 +3,7 @@ import '../App.css';
 import { useEffect, useRef } from "react";
 import Services from "../components/home/Services";
 import ShowProject from "../components/home/ShowProject";
+import Certificate from "../components/home/Certificate";
 
 const Home = () => {
     const homeRef = useRef(null)
@@ -46,6 +47,7 @@ const Home = () => {
             </div>
         </div>
         <Skill />
+        <Certificate />
         <Services />
         <ShowProject />
         </div>
